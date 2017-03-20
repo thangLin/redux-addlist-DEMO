@@ -5,7 +5,8 @@ module.exports = {
     entry:"./src/js/entry.js",
     output:{
         path: path.join( __dirname, './out/'),
-        publicPath:"https://localhost:8080/out/",
+        // publicPath:"https://localhost:8080/out/",
+        publicPath:'./out/',
         filename:"index.js"
     },
     module:{
@@ -27,7 +28,7 @@ module.exports = {
         ]
     },
     devServer:{
-        port:8080,
+        // port:8080,
         historyApiFallback:true,
         inline:true
     },
