@@ -5,7 +5,7 @@ module.exports = {
     entry:"./src/js/entry.js",
     output:{
         path: path.join( __dirname, './out/'),
-        publicPath:"http://localhost:8080/out/",
+        publicPath:"https://localhost:8080/out/",
         filename:"index.js"
     },
     module:{
